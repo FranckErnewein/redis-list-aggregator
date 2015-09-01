@@ -1,0 +1,30 @@
+{
+  "name": "redis-list-aggregator",
+  "version": "0.1.0",
+  "description": "Redis capped list buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranckErnewein/redis-list-aggregator.git"
+  },
+  "keywords": [
+    "redis",
+    "list"
+  ],
+  "author": "Franck Ernewein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranckErnewein/redis-list-aggregator/issues"
+  },
+  "homepage": "https://github.com/FranckErnewein/redis-list-aggregator#readme",
+  "devDependencies": {
+    "chai": "^3.2.0"
+  },
+  "dependencies": {
+    "node-aggregator": "^1.2.2",
+    "redis": "^1.0.0"
+  }
+}
